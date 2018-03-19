@@ -1,0 +1,31 @@
+--------------------------
+| Script Code@OpenSource |
+--------------------------
+
+Technology used :
+____________________________
+
+HTML + CSS + MATERIALIZE.CSS
+JQUEY MATERIALIZE.JS
+PHP + MYSQL 
+____________________________
+
+
+1.having a mysql and php server installed
+2.copy the files and import the database  
+3.changing the name of the databse at this page functions/main-functions.php line7  $dbname = 'CodeOpenSource';
+4.this website use online icons Materialize.
+
+Admin panel
+
+1.admin/ eg:http://127.0.0.1:8080/Code@open%20Source/admin/
+2. default user => email : code@opensource   and password : opensource   boom !! you have logged in 
+3.when creating a new moderator we are sending an email which as the unique code(token) to the email provided
+	the email contain : his/her email + token + the link for activating his/her accounts.
+4.All new moderator must use use those informations for the first login in order to secure their account by creating a password for it.
+5.make sure you have an email service on your server
+6 this part can be modify at this page admin/functions/settings.func.php
+
+Any question ? ask on our facebook group Code@OpenSource !
+
+Code@OpenSource! 
